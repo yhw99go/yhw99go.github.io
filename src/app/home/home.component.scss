@@ -1,0 +1,82 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.col {
+    padding: .4em 1.3em;
+}
+.color-dark {
+    background: #2885C4;
+}
+.color-light {
+    background: #57B3F1;
+}
+
+input.txt {
+    border: 0;
+    padding: 1em;
+    width: 80%;
+    margin-bottom: 2em;
+}
+input.btn {
+    border: 0;
+    display:block;
+    padding:1em 3em;
+    background:#A5F883;
+    color:#003A61;
+    margin-bottom:1em;
+    cursor:pointer;
+}
+.life-container {
+    background:#3FA0E1;
+    padding:.5em;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.page-header {
+    padding: 40px 0px 10px 0px;
+    font-size: 3.5em;
+    font-weight: bold;
+    float:center;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';  
+    width: 100%;
+    position: relative;
+    left: 35%;
+}
+
+.jumbotron{
+    background-color: white;
+    position: absolute;
+    width: 40%;
+    padding-top: 50px;
+    left:43%;
+}
+
+#profilePic {
+    position: absolute;
+    padding-top: 50px;
+    left:25%;
+}
+
+.iconBox{
+    font-size:30px;
+    .fa{
+        margin-right: 35px;
+    }
+    .fa-flag:hover {
+        color: red;
+    }
+    
+    
+ }
+@media only screen and (max-width: 992px) {
+    #profilePic {
+        z-index: -10;
+        position: absolute;
+        padding-top: 50px;
+        left:15%;
+        width: 70%;
+        height: 80%;
+    }
+}
